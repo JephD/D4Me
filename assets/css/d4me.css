@@ -1,0 +1,23 @@
+
+
+.header-main.shrink .navbar-nav > li > a{
+ color: #FFFFFF;
+}
+
+.header-main.shrink .navbar-nav > li > a:hover{
+ color:#778899;
+ text-decoration: none;
+ background-color: #222;
+}
+
+.searchd4me{
+  background-color:#FFFFFF;
+  border: 1px solid #778899;
+}
+
+.homemenu > li >a{
+  font-size: 12px;
+  
+  padding: 5px ;
+  
+}

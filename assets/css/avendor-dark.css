@@ -1,10 +1,5 @@
 /*
-Theme Name: Avendor
-Author: FourGrafx
-Author URI: http://www.fourgrafx.com
-Version: 1.0.0
-Description: A Beautiful, Professional and Multipurpose Theme Made by FourGrafx
-*/
+
 
 /* 	+----------------------------------------------------+
 		TABLE OF CONTENTS
@@ -149,9 +144,9 @@ section{ }
 .top-menu a{ color: inherit;}
 .top-menu a:hover, .top-menu a:focus {text-decoration:none;}
 /*header main*/
-.header-main{width:100%; position:relative; z-index:1100; background-color: #25242c; -webkit-box-shadow: 0px 3px 0px 0px rgba(27, 27, 34, 0.6); -moz-box-shadow: 0px 3px 0px 0px rgba(27, 27, 34, 0.6); box-shadow:  0px 3px 0px 0px rgba(27, 27, 34, 0.6); -webkit-transform: translateZ(0);}
+.header-main{width:100%; position:relative; z-index:1100; background-color: #25242c;  -webkit-transform: translateZ(0);}
 .main-navigation{ position:relative;}
-.logo{ line-height:100px;-webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
+.logo{ line-height:60px;-webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
 .logo img{-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
 .header-main.shrink .logo{ line-height:60px; -webkit-transition: all 1s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
 .header-main.shrink .logo img{-webkit-transform:scale(0.8); -moz-transform:scale(0.8); -o-transform: scale(0.8); -ms-transform: scale(0.8); transform: scale(0.8);}
@@ -216,27 +211,27 @@ section{ }
 .nav-right .navbar-toggle { left:0;}
 .nav-left .navbar-toggle { right:0;}
 .nav-left .gfx-nav{float:none;}
-
+.navbar-collapse{text-align: center;}
 }
 
 .navbar, .navbar-nav{ margin:0; min-height:inherit;}
-.navbar-collapse{ max-height:inherit; padding:0;}
+.navbar-collapse{ max-height:inherit; padding:0 0 0 0;}
 .navbar-default{ background:none; border:none;}
-.navbar-default .navbar-nav > li > a {color: #ffffff; border-top:3px solid transparent; font-family: 'Raleway', sans-serif; font-size: 12px; font-weight: 500; text-transform:uppercase; text-decoration: none; letter-spacing:1px;}
+.navbar-default .navbar-nav > li > a {color: #ffffff; border-top:5px solid transparent; font-family: 'Raleway', sans-serif; font-size: 14px; font-weight: 500; text-decoration: none; letter-spacing:1px;}
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background:none; }
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {background-color: transparent;}
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{ border-top:3px solid;}
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{text-decoration: none; background-color: none; }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus { background: none; color:#ffffff;}
-
-.navbar-toggle {position: absolute; cursor:pointer; top:30px; width:48px; height:48px; font-size:18px; float: none; text-align:center; right:0;  margin: 0;  padding: 9px 10px; background-color: #32313b; color:#fff;  border: none; border-radius: 0;}
+.header-main .navbar-nav > li > a{line-height:41px;}
+.navbar-toggle {position: absolute; cursor:pointer; top:17px; width:48px; height:48px; font-size:18px; float: none; text-align:center; right:0;  margin: 0;  padding: 9px 10px; background-color: #32313b; color:#fff;  border: none; border-radius: 0;}
 .navbar-toggle:focus {outline: none;}
-.navbar-toggle:after {content:'\f0c9'; font-family:FontAwesome;}
-
+/*.navbar-toggle:after {content:'\f0c9'; font-family:FontAwesome;}*/
+.jmenus{padding-top: 5px;}
 
 
 @media (min-width: 992px) {
-  .navbar-nav > li > a {padding: 9px 16px 12px; line-height:76px; }  
+  .navbar-nav > li > a {padding: 0px 16px 12px; line-height:41px; }  
   .header-main.shrink .navbar-nav > li > a { line-height:41px;  -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
   .navbar-nav > li > a:hover,.navbar-nav > li > a:focus {}
   .navbar-nav > li > a.current::before, .navbar-nav > li > a.current::after, .navbar-nav > li > a:hover::before, .navbar-nav > li > a:focus::before, .navbar-nav > li > a:hover::after, .navbar-nav > li > a:focus::after, .navbar-nav > li > a.highlighted:before, .navbar-nav > li > a.highlighted:after{opacity: 1; -webkit-transform: translateY(0px);
@@ -1949,21 +1944,27 @@ html[dir="rtl"] .btn .iconright { margin-right:14px; margin-left:0px;}
 
 
 
+
+
 /*===============================
 ========== Responsive Media Queries ==========
 ===============================*/
 @media (min-width: 768px) and (max-width: 991px) {
-.logo {line-height: 105px !important;}
+.logo {line-height: 70px !important;}
 .gfx-nav { float:none;}
 ul.gallery {margin-left: 0;}
 ul.gallery li {width: 50% !important; /* this value + 2% should = 50% */}
-
+.jsearch{margin:4% 0 0 3%};
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+.jsearch{margin:2% 0 0 2%};
 
 }
 @media (min-width: 1200px) {
-
+.jsearch{margin:1.5% 0 0 6%};
+}
+@media (max-width: 850px) {
+.jsearch{margin:4% 0 0 3%};
 }
 @media (max-width: 767px) {
 	
@@ -1971,10 +1972,14 @@ ul.gallery li {width: 50% !important; /* this value + 2% should = 50% */}
 .social-top{ text-align:center; float:none;}
 .top-menu{ float:none; text-align:center;}
 .top-menu li { border-top:1px solid #32313b;}
-
-.logo {line-height: 105px !important;}
+.jsearch{margin:1% 0 2% 3%};
+.logo {line-height: 70px !important;text-align: left;}
+.test{margin-bottom: 15px;}
+.header-main .navbar-nav > li > a{line-height:1.4;border-bottom: 1px solid #1C1C1C;}
 .gfx-nav { float:none;}
 .header-main.shrink .gfx-nav a { line-height:1.4;}
+
+
 
 .main-wrapper-header .breadcrumbs-wrapper { text-align:left;}
 .fancy-header .breadcrumbs-wrapper { text-align:center;}

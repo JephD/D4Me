@@ -11,7 +11,10 @@
 	<link href="<?php echo base_url();?>assets/css/main.css" rel="stylesheet">
 	<link href="<?php echo base_url();?>assets/css/responsive.css" rel="stylesheet">
     <link href="<?php echo base_url();?>assets/css/avendor-dark.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>assets/css/color-default.css" rel="stylesheet" title="style1">
+    <!-- <link href="<?php echo base_url();?>assets/css/color-default.css" rel="stylesheet" title="style1"> -->
+    
+     
+     
 
         <script src="<?php echo base_url();?>assets/js/modernizr.js"></script>
 
